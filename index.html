@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Git e GitHub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: #333;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        ul, ol {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Guia de Git e GitHub</h1>
+    </header>
+    <main>
+        <section id="git">
+            <h2>Git</h2>
+            <p>O Git é um sistema de controle de versões distribuído amplamente utilizado no desenvolvimento de software. Ele permite o gerenciamento eficiente de projetos, controlando alterações no código-fonte ao longo do tempo.</p>
+            <p>Algumas características importantes do Git incluem:</p>
+            <ul>
+                <li><b>Distribuído:</b> Cada desenvolvedor possui uma cópia completa do repositório, permitindo trabalho offline e descentralizado.</li>
+                <li><b>Rápido e Eficiente:</b> Manipula grandes projetos com rapidez, usando mecanismos de branching e merging eficientes.</li>
+                <li><b>Flexível:</b> Suporta diferentes fluxos de trabalho, desde simples a complexos.</li>
+                <li><b>Seguro:</b> Toda alteração é verificada criptograficamente, garantindo integridade dos dados.</li>
+            </ul>
+        </section>
+
+        <section id="github">
+            <h2>GitHub</h2>
+            <p>O GitHub é uma plataforma de hospedagem de código-fonte e colaboração baseada em Git. Além de hospedar projetos Git, oferece funcionalidades adicionais como controle de acesso, colaboração social (através de pull requests e issues), integração contínua, entre outros.</p>
+            <p>Principais recursos do GitHub:</p>
+            <ul>
+                <li><b>Repositórios:</b> Hospedagem de projetos Git com controle de versão.</li>
+                <li><b>Colaboração:</b> Facilita o trabalho em equipe através de pull requests, issues e comentários.</li>
+                <li><b>Integração Contínua:</b> Integração com ferramentas de CI/CD para automação de builds e testes.</li>
+                <li><b>Comunidade:</b> Grande comunidade de desenvolvedores compartilhando código e colaborando em projetos.</li>
+            </ul>
+        </section>
+
+        <section id="comandos-git">
+            <h2>Comandos Git</h2>
+            <p>Aqui estão os principais comandos Git que você precisará conhecer para usar efetivamente o Git no seu projeto:</p>
+            <ul>
+                <li><b>git init</b>: Inicializa um repositório Git local.</li>
+                <li><b>git clone</b>: Clona um repositório Git existente para o seu computador.</li>
+                <li><b>git branch</b>: Lista, cria ou deleta branches no repositório.</li>
+                <li><b>git checkout</b>: Altera branches ou restaura arquivos do repositório.</li>
+                <li><b>git status</b>: Mostra o estado atual do repositório.</li>
+                <li><b>git diff</b>: Mostra as diferenças entre arquivos no diretório de trabalho e o que está no stage.</li>
+                <li><b>git add</b>: Adiciona alterações do diretório de trabalho para o stage.</li>
+                <li><b>git commit</b>: Registra as alterações no repositório.</li>
+                <li><b>git push</b>: Envia as alterações locais para o repositório remoto.</li>
+                <li><b>git pull</b>: Atualiza o repositório local com as alterações do repositório remoto.</li>
+                <li><b>git revert</b>: Desfaz um commit específico, criando um novo commit.</li>
+                <li><b>git merge</b>: Combina as alterações de uma branch com outra.</li>
+                <li><b>git stash</b>: Armazena temporariamente alterações não finalizadas para limpar o diretório de trabalho.</li>
+                <li><b>git rm</b>: Remove arquivos do diretório de trabalho e do stage.</li>
+                <li><b>git config</b>: Configura opções do Git, como nome de usuário e email.</li>
+                <li><b>git reset</b>: Desfaz alterações, revertendo o repositório para um estado anterior.</li>
+                <li><b>git remote</b>: Gerencia repositórios remotos associados.</li>
+                <li><b>git fetch</b>: Busca as atualizações do repositório remoto para o repositório local.</li>
+                <li><b>git show</b>: Mostra informações sobre commits, tags ou objetos específicos.</li>
+                <li><b>git help</b>: Mostra o manual de ajuda do Git.</li>
+                <li><b>git rebase</b>: Reaplica commits em cima de outra base.</li>
+                <li><b>git blame</b>: Mostra a autoria e a última modificação de cada linha de um arquivo.</li>
+                <li><b>git tag</b>: Marca commits específicos com tags.</li>
+            </ul>
+        </section>
+
+        <section id="configuracao-github">
+            <h2>Configuração e Acesso ao GitHub</h2>
+            <p>Para começar a utilizar o GitHub, siga estas etapas básicas de configuração:</p>
+            <ol>
+                <li>Crie uma conta no GitHub em <a href="https://github.com/">github.com</a>.</li>
+                <li>Configure seu nome de usuário e email localmente:</li>
+                <pre><code>
+git config --global user.name "Seu Nome"
+git config --global user.email "seu-email@example.com"
+                </code></pre>
+                <li>Caso deseje, configure também outras opções como cores do terminal, ferramentas de merge padrão, etc.</li>
+                <li>Crie um novo repositório no GitHub e siga as instruções para adicionar arquivos locais ao repositório remoto.</li>
+            </ol>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Este guia foi criado para o trabalho de Ciência da Computação na Universidade Federal de Alfenas.</p>
+    </footer>
+</body>
+</html>
